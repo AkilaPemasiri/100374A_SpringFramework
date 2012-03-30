@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+
+
+<bean id="stu1" class="sms.Student" p:firstName= "Akila" p:lastName= "Pemasiri" p:regNumber= "100374" p:address= "No 123, Moratuwa" > </bean>
+<bean id="stu2" class="sms.Student" p:firstName= "Imal" p:lastName= "Sachintha" p:regNumber= "100375" p:address= "No 124, Moratuwa" > </bean>
+<bean id="stu3" class="sms.Student" p:firstName= "Amal" p:lastName= "Perera" p:regNumber= "100376" p:address= "No 125, Moratuwa" > </bean>
+<bean id="stu4" class="sms.Student" p:firstName= "Gayani" p:lastName= "Kumari" p:regNumber= "100377" p:address= "No 126, Moratuwa" > </bean>
+<bean id="stu5" class="sms.Student" p:firstName= "Sman" p:lastName= "Perera" p:regNumber= "100378" p:address= "No 127, Moratuwa" > </bean>
+<bean id="stu6" class="sms.Student" p:firstName= "Dilshan" p:lastName= "Peiris" p:regNumber= "100379" p:address= "No 128, Moratuwa" > </bean>
+<bean id="stu7" class="sms.Student" p:firstName= "Gayan" p:lastName= "Gunawardhena" p:regNumber= "100380" p:address= "No 129, Moratuwa" > </bean>
+<bean id="stu8" class="sms.Student" p:firstName= "Isuru" p:lastName= "Smarasekara" p:regNumber= "100381" p:address= "No 130, Moratuwa" > </bean>
+</beans>
